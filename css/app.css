@@ -1,1 +1,32 @@
 /* Write your code here */
+.announcement {
+    background-color: #ccc;
+    padding: 0.5em;
+    position: relative;
+}
+
+.announcement.hidden p {
+    display: none;
+}
+
+.announcement button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: 1px solid black;
+    background-color: tomato;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.announcement button::before {
+    content: "X";
+}
+
+.announcement.hidden button {
+    position: relative;
+}
+.announcement.hidden button::before {
+    content: "Show announcement";
+}
