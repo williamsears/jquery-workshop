@@ -1,1 +1,25 @@
 /* Write your code here */
+
+.announcement {
+    border: thin solid #000000;
+    padding: 50px;
+    background-color: red;
+}
+
+.ok {
+    background-color: transparent;
+    transition: background-color ease-in-out .2s;
+    font-size: 20px;
+    right: 50px;
+    position: absolute;
+    border: thin solid #000000;
+}
+
+.ok:hover {
+    background-color: #fff;
+    transition: background-color ease-in-out .2s;
+    font-size: 20px;
+    right: 50px;
+    position: absolute;
+    border: thin solid #000000;
+}
